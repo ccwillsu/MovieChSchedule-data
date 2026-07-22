@@ -1,0 +1,85 @@
+{
+  "updatedAt": "2026-07-22T13:46:45.694Z",
+  "channels": [
+    {
+      "id": "67",
+      "name": "AXN HD",
+      "number": "67"
+    },
+    {
+      "id": "64",
+      "name": "LS龍祥電影台HD",
+      "number": "64"
+    },
+    {
+      "id": "122",
+      "name": "HBO HD頻道",
+      "number": "600"
+    },
+    {
+      "id": "68",
+      "name": "好萊塢電影台HD",
+      "number": "68"
+    },
+    {
+      "id": "70",
+      "name": "CINEMAX HD",
+      "number": "70"
+    },
+    {
+      "id": "146",
+      "name": "ROCK Action HD",
+      "number": "146"
+    },
+    {
+      "id": "162",
+      "name": "HBO原創鉅獻HD",
+      "number": "602"
+    },
+    {
+      "id": "164",
+      "name": "HBO溫馨家庭HD",
+      "number": "603"
+    },
+    {
+      "id": "66",
+      "name": "東森洋片台HD",
+      "number": "66"
+    },
+    {
+      "id": "608",
+      "name": "wedotv Movies HD",
+      "number": "608"
+    },
+    {
+      "id": "62",
+      "name": "東森電影台HD",
+      "number": "62"
+    },
+    {
+      "id": "63",
+      "name": "緯來電影台HD",
+      "number": "63"
+    },
+    {
+      "id": "65",
+      "name": "HBO",
+      "number": "65"
+    },
+    {
+      "id": "163",
+      "name": "HBO強檔鉅獻HD",
+      "number": "601"
+    },
+    {
+      "id": "230",
+      "name": "CATCHPLAY電影台HD",
+      "number": "61"
+    },
+    {
+      "id": "1239",
+      "name": "CinemaWorld HD",
+      "number": "606"
+    }
+  ]
+}
