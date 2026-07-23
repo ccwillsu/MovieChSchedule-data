@@ -1,10 +1,20 @@
 {
-  "updatedAt": "2026-07-23T05:42:48.314Z",
+  "updatedAt": "2026-07-23T05:49:52.080Z",
   "channels": [
     {
-      "id": "67",
-      "name": "AXN HD",
-      "number": "67"
+      "id": "230",
+      "name": "CATCHPLAY電影台HD",
+      "number": "61"
+    },
+    {
+      "id": "62",
+      "name": "東森電影台HD",
+      "number": "62"
+    },
+    {
+      "id": "63",
+      "name": "緯來電影台HD",
+      "number": "63"
     },
     {
       "id": "64",
@@ -12,9 +22,19 @@
       "number": "64"
     },
     {
-      "id": "122",
-      "name": "HBO HD頻道",
-      "number": "600"
+      "id": "65",
+      "name": "HBO",
+      "number": "65"
+    },
+    {
+      "id": "66",
+      "name": "東森洋片台HD",
+      "number": "66"
+    },
+    {
+      "id": "67",
+      "name": "AXN HD",
+      "number": "67"
     },
     {
       "id": "68",
@@ -32,6 +52,16 @@
       "number": "146"
     },
     {
+      "id": "122",
+      "name": "HBO HD頻道",
+      "number": "600"
+    },
+    {
+      "id": "163",
+      "name": "HBO強檔鉅獻HD",
+      "number": "601"
+    },
+    {
       "id": "162",
       "name": "HBO原創鉅獻HD",
       "number": "602"
@@ -42,44 +72,14 @@
       "number": "603"
     },
     {
-      "id": "66",
-      "name": "東森洋片台HD",
-      "number": "66"
+      "id": "1239",
+      "name": "CinemaWorld HD",
+      "number": "606"
     },
     {
       "id": "608",
       "name": "wedotv Movies HD",
       "number": "608"
-    },
-    {
-      "id": "62",
-      "name": "東森電影台HD",
-      "number": "62"
-    },
-    {
-      "id": "63",
-      "name": "緯來電影台HD",
-      "number": "63"
-    },
-    {
-      "id": "65",
-      "name": "HBO",
-      "number": "65"
-    },
-    {
-      "id": "163",
-      "name": "HBO強檔鉅獻HD",
-      "number": "601"
-    },
-    {
-      "id": "230",
-      "name": "CATCHPLAY電影台HD",
-      "number": "61"
-    },
-    {
-      "id": "1239",
-      "name": "CinemaWorld HD",
-      "number": "606"
     }
   ]
 }
