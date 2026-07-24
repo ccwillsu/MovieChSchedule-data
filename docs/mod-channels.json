@@ -1,0 +1,105 @@
+{
+  "updatedAt": "2026-07-24T08:14:04.861Z",
+  "channels": [
+    {
+      "id": "600",
+      "name": "視納華仁紀實台HD",
+      "number": "600"
+    },
+    {
+      "id": "601",
+      "name": "影迷數位紀實台HD",
+      "number": "601"
+    },
+    {
+      "id": "610",
+      "name": "美亞電影HD",
+      "number": "610"
+    },
+    {
+      "id": "611",
+      "name": "龍華電影HD",
+      "number": "611"
+    },
+    {
+      "id": "613",
+      "name": "靖天映畫HD",
+      "number": "613"
+    },
+    {
+      "id": "614",
+      "name": "靖天電影HD",
+      "number": "614"
+    },
+    {
+      "id": "615",
+      "name": "龍華洋片HD",
+      "number": "615"
+    },
+    {
+      "id": "616",
+      "name": "Warner TV HD",
+      "number": "616"
+    },
+    {
+      "id": "617",
+      "name": "ROCK Action HD",
+      "number": "617"
+    },
+    {
+      "id": "618",
+      "name": "wedotv Movies HD",
+      "number": "618"
+    },
+    {
+      "id": "619",
+      "name": "amc電影台",
+      "number": "619"
+    },
+    {
+      "id": "620",
+      "name": "HITS HD",
+      "number": "620"
+    },
+    {
+      "id": "624",
+      "name": "龍華經典HD",
+      "number": "624"
+    },
+    {
+      "id": "625",
+      "name": "華藝影劇台",
+      "number": "625"
+    },
+    {
+      "id": "626",
+      "name": "CatchPlay HD",
+      "number": "626"
+    },
+    {
+      "id": "627",
+      "name": "CinemaWorld HD",
+      "number": "627"
+    },
+    {
+      "id": "628",
+      "name": "壹電視電影台HD",
+      "number": "628"
+    },
+    {
+      "id": "629",
+      "name": "采昌影劇台HD",
+      "number": "629"
+    },
+    {
+      "id": "630",
+      "name": "影迷數位電影台HD",
+      "number": "630"
+    },
+    {
+      "id": "633",
+      "name": "MCE 我的歐洲電影台",
+      "number": "633"
+    }
+  ]
+}
