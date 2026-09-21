@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>秒查影劇節目表 - 有線電視、MOD 電影台戲劇台節目表，橫向時間軸一次看完</title>
+<meta name="description" content="秒查影劇節目表：把有線電視（第四台）和 MOD 的電影台、戲劇台節目表放在同一條橫向時間軸上，往右滑看未來一週，支援搜尋、我的最愛開播提醒、已看標記。Android 免費下載，不用註冊。" />
+<meta name="keywords" content="第四台節目表, MOD節目表, 電影台節目表, 戲劇台節目表, 電視節目表, 有線電視, 追劇, 開播提醒" />
+<link rel="canonical" href="https://ccwillsu.github.io/MovieChSchedule-data/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:title" content="秒查影劇節目表" />
+<meta property="og:description" content="有線電視和 MOD 的電影台、戲劇台節目表，橫向時間軸一次看完。Android 免費，不用註冊。" />
+<meta property="og:url" content="https://ccwillsu.github.io/MovieChSchedule-data/" />
+<meta property="og:image" content="https://ccwillsu.github.io/MovieChSchedule-data/feature-graphic.png" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "秒查影劇節目表",
+  "operatingSystem": "Android",
+  "applicationCategory": "EntertainmentApplication",
+  "inLanguage": "zh-TW",
+  "description": "有線電視和 MOD 的電影台、戲劇台節目表，橫向時間軸一次看完。",
+  "url": "https://ccwillsu.github.io/MovieChSchedule-data/",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.ccwillsu.tvschedule",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TWD" }
+}
+</script>
+
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2937;
+    --muted: #6b7280;
+    --card: #f4f4f5;
+    --accent: #2563eb;
+    --border: #e4e4e7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #09090b;
+      --fg: #f3f4f6;
+      --muted: #a1a1aa;
+      --card: #18181b;
+      --accent: #60a5fa;
+      --border: #27272a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Microsoft JhengHei", "PingFang TC", sans-serif;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  header.hero { padding: 56px 0 32px; text-align: center; }
+  header.hero h1 { font-size: 32px; margin: 0 0 12px; line-height: 1.3; }
+  header.hero p.lead { font-size: 18px; color: var(--muted); margin: 0 auto 28px; max-width: 560px; }
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 14px 28px;
+    border-radius: 10px;
+  }
+  .cta:hover { opacity: 0.9; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 12px; }
+  .banner { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); margin: 8px 0 8px; }
+  h2 { font-size: 22px; margin: 48px 0 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .card h3 { font-size: 16px; margin: 0 0 4px; }
+  .card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
+  ol.steps { padding-left: 20px; }
+  ol.steps li { margin-bottom: 6px; }
+  details { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; margin-bottom: 10px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 8px 0 0; color: var(--muted); font-size: 14px; }
+  footer { margin-top: 56px; padding: 24px 0 40px; border-top: 1px solid var(--border); text-align: center; color: var(--muted); font-size: 13px; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>秒查影劇節目表</h1>
+    <p class="lead">有線電視和 MOD 的電影台、戲劇台，全部放在同一條橫向時間軸上。往右滑就能看到未來一週播什麼，不用一台一台切換查詢。</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.ccwillsu.tvschedule">在 Google Play 免費下載</a>
+    <p class="sub">Android 適用 ・ 不用註冊 ・ 不收集個人資料</p>
+  </header>
+
+  <img class="banner" src="feature-graphic.png" alt="秒查影劇節目表：有線電視、MOD 電影台戲劇台橫向時間軸節目表" width="1024" height="500" />
+
+  <h2>為什麼做這個 App</h2>
+  <p>想找今晚有什麼電影或戲可以看，通常得一台一台切、或一個網頁一個網頁翻。這個 App 把頻道排在左邊、時間排在上面，同一個時段各台在播什麼一眼就能比較，找到想看的再決定看哪一台。</p>
+
+  <h2>主要功能</h2>
+  <div class="grid">
+    <div class="card"><h3>橫向時間軸</h3><p>左右滑看未來 7 天，上下滑切換頻道，同時段各台節目一目了然。</p></div>
+    <div class="card"><h3>四種節目表</h3><p>有線電視電影台、有線電視戲劇台、MOD 電影台、MOD 戲劇台，上方一鍵切換。</p></div>
+    <div class="card"><h3>搜尋片名</h3><p>輸入片名，直接跳到它在時間軸上的位置，也能看到還會重播的場次。</p></div>
+    <div class="card"><h3>我的最愛與開播提醒</h3><p>收藏想看的節目，開播前 10 分鐘用通知提醒你，不會錯過。</p></div>
+    <div class="card"><h3>已看過標記</h3><p>追劇時每一集分開記錄，知道自己看到第幾集。</p></div>
+    <div class="card"><h3>長按標出所有場次</h3><p>長按節目，同一部劇所有播出時段一起標出來，方便找補播。</p></div>
+    <div class="card"><h3>自訂頻道順序</h3><p>長按頻道名稱上下拖曳，排成你習慣的順序。</p></div>
+    <div class="card"><h3>節目評分</h3><p>參考 TMDB 評分，選片更有依據。</p></div>
+  </div>
+
+  <h2>怎麼開始用</h2>
+  <ol class="steps">
+    <li>到 Google Play 搜尋「秒查影劇節目表」並安裝（或直接點上面的下載按鈕）。</li>
+    <li>打開就能看，不需要註冊、登入。</li>
+    <li>點上方的來源選單，選有線電視或 MOD、電影台或戲劇台。</li>
+    <li>點「現在」按鈕，回到目前時間點。</li>
+  </ol>
+
+  <h2>常見問題</h2>
+  <details>
+    <summary>要收費嗎？</summary>
+    <p>免費，目前沒有廣告。</p>
+  </details>
+  <details>
+    <summary>需要註冊帳號嗎？</summary>
+    <p>不需要。我的最愛、已看過、頻道排序都只存在你自己的手機裡，不會上傳。</p>
+  </details>
+  <details>
+    <summary>節目表資料多久更新一次？</summary>
+    <p>資料每隔幾小時自動更新一次。臨時異動的節目可能會有時間差，實際播出時間請以電視台公告為準。</p>
+  </details>
+  <details>
+    <summary>有 iPhone 版嗎？</summary>
+    <p>目前只有 Android 版。</p>
+  </details>
+  <details>
+    <summary>可以看到我家那一區的頻道嗎？</summary>
+    <p>頻道以常見的有線電視與 MOD 頻道為主，各地區實際收看的頻道與頻道號碼可能不同，請以你家的頻道表為準。</p>
+  </details>
+
+  <h2>意見回饋</h2>
+  <p>遇到問題、想要新功能，歡迎到 Google Play 商店頁留言，或來信：<a href="mailto:willsu.tw@gmail.com">willsu.tw@gmail.com</a>。</p>
+
+  <footer>
+    <p><a href="privacy.html">隱私權政策</a></p>
+    <p>本 App 為獨立開發的個人專案，與任何電視台、有線電視系統業者、中華電信皆無隸屬關係。節目表為公開播出資訊，實際以各電視台公告為準。</p>
+  </footer>
+
+</div>
+</body>
+</html>
