@@ -76,6 +76,24 @@
   .sub { color: var(--muted); font-size: 13px; margin-top: 12px; }
   .banner { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); margin: 8px 0 8px; }
   h2 { font-size: 22px; margin: 48px 0 16px; }
+  .shots {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding: 4px 4px 14px;
+    margin: 0 -4px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+  }
+  .shots img {
+    height: 460px;
+    width: auto;
+    max-width: 80vw;
+    flex: 0 0 auto;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    scroll-snap-align: start;
+  }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
   .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
   .card h3 { font-size: 16px; margin: 0 0 4px; }
@@ -100,6 +118,14 @@
   </header>
 
   <img class="banner" src="feature-graphic.png" alt="秒查影劇節目表：有線電視、MOD 電影台戲劇台橫向時間軸節目表" width="1024" height="500" />
+
+  <h2>畫面截圖</h2>
+  <div class="shots">
+    <img src="Screenshot_1.jpg" loading="lazy" alt="有線電視電影台橫向時間軸：多台同時段節目一次比較" />
+    <img src="Screenshot_2.jpg" loading="lazy" alt="MOD 電影台橫向時間軸畫面" />
+    <img src="Screenshot_3.jpg" loading="lazy" alt="節目詳情彈窗，含收藏、已看標記與 TMDB 評分" />
+    <img src="Screenshot_4.jpg" loading="lazy" alt="搜尋片名，列出所有播出時段" />
+  </div>
 
   <h2>為什麼做這個 App</h2>
   <p>想找今晚有什麼電影或戲可以看，通常得一台一台切、或一個網頁一個網頁翻。這個 App 把頻道排在左邊、時間排在上面，同一個時段各台在播什麼一眼就能比較，找到想看的再決定看哪一台。</p>
